@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+td,th{
+    border: 1px solid;
+    text-align: center;
+    padding: 8px;
+}
+td:hover{
+    background-color:  rgb(129, 54, 41);
+}
+th:hover{
+    background-color:  rgb(129, 54, 41);
+}
+body{
+    background-color: rgb(207, 180, 147);
+}
+h1{
+    color:rgba(129, 68, 50, 0.952);
+    cursor: pointer ;
+    transition: 0.2s;
+}
+h1:hover{
+    color: rgb(182, 113, 82);
+    letter-spacing: 2px;
+}
+img{
+    width: 4cm;
+    border-radius: 25%;
+    box-shadow: 1px 1px 4px grey;
+    padding: 5px;
+    background-color: white;
+    transition: 2s;
+    margin: 25px;
+    opacity: 90%;
+    cursor: pointer;
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+}
+img:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+    box-shadow: 1px 1px 6px pink;
+}
+.nama{
+    text-align: center;
+}
+.tombol a{
+    background-color: rgb(138, 76, 51);
+    border-radius: 10px;
+    padding: 12px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.Judul{
+    text-align: center;
+    margin-top: 20px;
+}
+.Judul-Tabel{
+    background-color: rgb(138, 76, 51);
+}
+.Tabel{
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 35px;
+}
