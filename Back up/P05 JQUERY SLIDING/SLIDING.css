@@ -1,0 +1,29 @@
+body {
+    background-color: beige;
+}
+.bungkus-tombol {
+    margin-left: 100px;
+    margin-right: 105px;
+}
+.tombol-s {
+    text-align: center;
+}
+.tombol {
+    background-color: rgb(68, 59, 59);
+    font-size: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.Isi {
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,2);
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 50px;
+    border-radius: 8px ;
+    background-color: rgb(170, 141, 145);
+    padding: 20px;
+    display: none;
+}
